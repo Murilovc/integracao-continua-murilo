@@ -1,4 +1,4 @@
-name: CI Workflow
+name: CI Workflow Branches
 on:
   push:
     branches:
@@ -22,4 +22,4 @@ jobs:
           type: now
           target_branch: main
           github_token: ${{ github.token }}
-          
+ 
